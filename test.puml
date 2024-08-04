@@ -1,0 +1,5 @@
+@startuml
+title シーケンス図テスト
+aaa --> bbb
+aaa <-- bbb
+@enduml
