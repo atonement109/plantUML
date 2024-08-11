@@ -1,5 +1,14 @@
-@startuml
+@startuml testuml
 title シーケンス図テスト
 aaa --> bbb
+activate bbb
 aaa <-- bbb
+deactivate bbb
+aaa ->> ccc
+activate ccc
+aaa <<- ccc
+deactivate ccc
+note right ccc
+    aaa
+end note
 @enduml
