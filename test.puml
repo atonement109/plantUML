@@ -1,5 +1,5 @@
 @startuml testuml
-title aaシーケンス図テスト
+title シーケンス図テスト
 aaa --> bbb
 activate bbb
 aaa <-- bbb
